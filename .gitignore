@@ -1,1 +1,45 @@
 /Task1Advanced/modules/envs/dev/authorized_key.json
+/Task2Advanced/modules/envs/dev/authorized_key.json
+/Task2Advanced/modules/envs/dev/backend-dev.conf
+# Local .terraform directories
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include plan files
+*.tfplan
+*.binary
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Backend config files (local, with secrets)
+**/backend-*.conf
+**/backend-ci.conf
+
+# Key files
+**/*.json
+**/*.pem
+**/*.pub
+!modules/**/*.pub  # если нужно хранить примеры ключей
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

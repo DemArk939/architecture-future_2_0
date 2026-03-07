@@ -1,0 +1,4 @@
+bucket         = "your-unique-bucket-name-tfstate"  # Имя вашего бакета
+key            = "dev/terraform.tfstate"            # Путь к state-файлу внутри бакета
+access_key     = "<YOUR_STATIC_ACCESS_KEY_ID>"      # ID статического ключа сервисного аккаунта
+secret_key     = "<YOUR_STATIC_ACCESS_KEY_SECRET>"  # Секретный ключ

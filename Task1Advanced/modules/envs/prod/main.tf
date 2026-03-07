@@ -24,7 +24,7 @@ module "vm" {
   memory         = var.memory
   disk_size      = var.disk_size
   disk_type      = var.disk_type
-  subnet_id      = var.subnet_idF
+  subnet_id      = var.subnet_id
   ssh_public_key = file(var.ssh_key_path)   # читаем содержимое ключа из файла
   zone           = var.zone
   image_family   = var.image_family
