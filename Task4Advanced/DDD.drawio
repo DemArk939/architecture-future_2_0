@@ -1,0 +1,88 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
+  <diagram name="Страница-1" id="ibyCrErsgMbLxFW_x7xz">
+    <mxGraphModel dx="1845" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EjrHjBNjouA11qc1CfvT-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; text-wrap-mode: wrap; word-break: break-all; padding: 16px; caret-color: rgb(249, 250, 251); text-align: start; margin: 0px !important;&quot;&gt;&lt;font&gt;Kafka&lt;/font&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EjrHjBNjouA11qc1CfvT-6" edge="1" parent="1" source="EjrHjBNjouA11qc1CfvT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="EjrHjBNjouA11qc1CfvT-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="160" />
+              <mxPoint x="340" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EjrHjBNjouA11qc1CfvT-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; text-wrap-mode: wrap; word-break: break-all; padding: 16px; caret-color: rgb(249, 250, 251); text-align: start; margin: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; text-wrap-mode: wrap; word-break: break-all; padding: 16px; margin: 0px !important;&quot;&gt;&lt;span&gt;&lt;font&gt;Patient&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="EjrHjBNjouA11qc1CfvT-7" edge="1" parent="1" source="EjrHjBNjouA11qc1CfvT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EjrHjBNjouA11qc1CfvT-16" edge="1" parent="1" source="EjrHjBNjouA11qc1CfvT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="EjrHjBNjouA11qc1CfvT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EjrHjBNjouA11qc1CfvT-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;pre style=&quot;overflow: auto; word-break: break-all; padding: 16px; text-align: start; margin: 0px !important; caret-color: rgb(249, 250, 251);&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;caret-color: rgb(249, 250, 251); text-wrap-mode: wrap;&quot;&gt;Appointment&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;var(--ds-font-family-code)&quot;&gt;&lt;span style=&quot;caret-color: rgb(249, 250, 251); text-wrap-mode: wrap;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="EjrHjBNjouA11qc1CfvT-8" edge="1" parent="1" source="EjrHjBNjouA11qc1CfvT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="160" />
+              <mxPoint x="340" y="160" />
+            </Array>
+            <mxPoint x="340" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EjrHjBNjouA11qc1CfvT-9" connectable="0" parent="EjrHjBNjouA11qc1CfvT-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Публикация данных" vertex="1">
+          <mxGeometry relative="1" x="0.8143" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EjrHjBNjouA11qc1CfvT-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;pre style=&quot;overflow: auto; word-break: break-all; padding: 16px; text-align: start; margin: 0px !important; caret-color: rgb(249, 250, 251);&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;caret-color: rgb(249, 250, 251); text-wrap-mode: wrap;&quot;&gt;Billing&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;var(--ds-font-family-code)&quot;&gt;&lt;span style=&quot;caret-color: rgb(249, 250, 251); text-wrap-mode: wrap;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="EjrHjBNjouA11qc1CfvT-24" edge="1" parent="1" source="EjrHjBNjouA11qc1CfvT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="EjrHjBNjouA11qc1CfvT-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EjrHjBNjouA11qc1CfvT-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=right;labelPosition=left;verticalLabelPosition=top;verticalAlign=bottom;spacingTop=0;spacing=0;spacingLeft=0;spacingRight=-78;spacingBottom=-21;labelBackgroundColor=none;fillColor=none;" value="Подписчики" vertex="1">
+          <mxGeometry height="160" width="760" x="-40" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="EjrHjBNjouA11qc1CfvT-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;pre style=&quot;overflow: auto; word-break: break-all; padding: 16px; text-align: start; margin: 0px !important; caret-color: rgb(249, 250, 251);&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;caret-color: rgb(249, 250, 251); text-wrap-mode: wrap;&quot;&gt;Billing&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;var(--ds-font-family-code)&quot;&gt;&lt;span style=&quot;caret-color: rgb(249, 250, 251); text-wrap-mode: wrap;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="EjrHjBNjouA11qc1CfvT-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="AI Domain" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="EjrHjBNjouA11qc1CfvT-13" parent="1" style="rounded=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;verticalAlign=middle;convertToSvg=0;" value="Notification &#xa;Domain" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="EjrHjBNjouA11qc1CfvT-14" parent="1" style="rounded=1;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;verticalAlign=middle;convertToSvg=0;" value="Data Platform" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="EjrHjBNjouA11qc1CfvT-15" edge="1" parent="1" source="EjrHjBNjouA11qc1CfvT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.237;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" target="EjrHjBNjouA11qc1CfvT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EjrHjBNjouA11qc1CfvT-17" edge="1" parent="1" source="EjrHjBNjouA11qc1CfvT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.763;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="EjrHjBNjouA11qc1CfvT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EjrHjBNjouA11qc1CfvT-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="события:               &#xa;• PatientRegistered    &#xa;• MedicalRecordCreated &#xa;• DiagnosisAdded       &#xa;• AttachmentUploaded   " vertex="1">
+          <mxGeometry height="80" width="150" x="150" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="EjrHjBNjouA11qc1CfvT-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="события:              &#xa;• AppointmentScheduled&#xa;• AppointmentCancelled&#xa;• AppointmentCompleted&#xa;                      " vertex="1">
+          <mxGeometry height="70" width="150" x="350" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="EjrHjBNjouA11qc1CfvT-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="события:&#xa;• InvoiceIssued&#xa;• PaymentReceived&#xa;• LoanCreated&#xa;• LoanStatusChanged" vertex="1">
+          <mxGeometry height="70" width="150" x="550" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="EjrHjBNjouA11qc1CfvT-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=middle;" value="Другие подписчики: Inventory, HR, партнёрские системы" vertex="1">
+          <mxGeometry height="60" width="210" x="235" y="640" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
