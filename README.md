@@ -265,7 +265,7 @@ TF_STATE_BUCKET - Имя бакета для state-файлов
 
 #### Диаграмма потоков событий
 
-![DDD](Task4Advanced/DDD.jpg)
+![DDD](Task4Advanced/Event_storming.jpg)
 
 #### Описание ключевых событий и их маршрутов
 
