@@ -1,0 +1,44 @@
+name: 'Terraform Plan'
+
+on:
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'envs/dev/**'
+      - 'modules/**'
+      - '**.tf'
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    env:
+      TF_VAR_yandex_cloud_id: ${{ secrets.YC_CLOUD_ID }}
+      TF_VAR_yandex_folder_id: ${{ secrets.YC_FOLDER_ID }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.YC_STATIC_ACCESS_KEY }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.YC_STATIC_SECRET_KEY }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: 1.10.0
+
+      - name: Configure backend
+        run: |
+          cat > ./envs/dev/backend-ci.conf << EOF
+          bucket = "${{ secrets.TF_STATE_BUCKET }}"
+          key = "dev/terraform.tfstate"
+          access_key = "${{ secrets.YC_STATIC_ACCESS_KEY }}"
+          secret_key = "${{ secrets.YC_STATIC_SECRET_KEY }}"
+          EOF
+
+      - name: Terraform Init
+        working-directory: ./envs/dev
+        run: terraform init -reconfigure -backend-config=backend-ci.conf
+
+      - name: Terraform Plan
+        working-directory: ./envs/dev
+        run: terraform plan -no-color -input=false
